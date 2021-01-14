@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { FlightsComponent } from './flights/flights.component';
 
-const routes: Routes = [{component: FlightsComponent, path : "flights" }];
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
