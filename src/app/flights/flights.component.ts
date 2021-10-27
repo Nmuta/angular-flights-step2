@@ -12,7 +12,7 @@ export class FlightsComponent implements OnInit {
     {origin: "Denver", destination: "Miami", flightNumber: 5, 
     depart: new Date(), arrive: new Date(), nonstop: true},
     {origin: "Phoenix", destination: "NYC", flightNumber: 5, 
-    depart: new Date(), arrive: new Date(), nonstop: true, snacks: "crackers"},
+    depart: new Date(), arrive: new Date(), nonstop: true, snacks: "pretzels"},
   ];
 
   constructor() { }
