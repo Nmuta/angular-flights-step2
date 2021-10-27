@@ -7,9 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   //(delete this code and code something similar on your own:)
-    flights: {}[] = [
-      {origin: "Denver", destination: "Miami"},
-      {origin: "Rio", destination: "NYC"},
-      {origin: "Boston", destination: "Chicago"},
-    ];
+    
 }
